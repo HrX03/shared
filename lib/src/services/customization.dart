@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:dsettings/dsettings.dart';
-import 'package:dahlia_shared/services/preferences.dart';
-import 'package:dahlia_shared/services/service.dart';
-import 'package:dahlia_shared/utils/resource.dart';
+import 'package:dahlia_shared/src/services/preferences.dart';
+import 'package:dahlia_shared/src/services/service.dart';
+import 'package:dahlia_shared/src/utils/resource.dart';
 
 class CustomizationServiceFactory extends ServiceFactory<CustomizationService> {
   const CustomizationServiceFactory();

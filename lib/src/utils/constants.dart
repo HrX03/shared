@@ -16,7 +16,7 @@ limitations under the License.
 
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
-import 'package:dahlia_shared/utils/resource.dart';
+import 'package:dahlia_shared/src/utils/resource.dart';
 
 class Constants {
   const Constants._();

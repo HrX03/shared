@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:dahlia_shared/utils/completer_group.dart';
+import 'package:dahlia_shared/src/utils/completer_group.dart';
 import 'package:flutter/foundation.dart';
-import 'package:dahlia_shared/utils/log.dart';
+import 'package:dahlia_shared/src/utils/log.dart';
 
 abstract class Service with LoggerProvider {
   bool _running = false;

@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:dbus/dbus.dart';
 import 'package:dsettings/dsettings.dart';
-import 'package:dahlia_shared/services/service.dart';
+import 'package:dahlia_shared/src/services/service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class PreferencesServiceFactory extends ServiceFactory<PreferencesService> {

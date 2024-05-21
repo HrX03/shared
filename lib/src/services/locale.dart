@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:dahlia_shared/generated/locale/data.dart';
-import 'package:dahlia_shared/generated/locale/strings.dart';
-import 'package:dahlia_shared/services/service.dart';
+import 'package:dahlia_shared/src/generated/locale/data.dart';
+import 'package:dahlia_shared/src/generated/locale/strings.dart';
+import 'package:dahlia_shared/src/services/service.dart';
 import 'package:intl/locale.dart';
 import 'package:yatl_flutter/yatl_flutter.dart';
 import 'package:yatl_gen/yatl_gen.dart';

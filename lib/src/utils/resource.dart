@@ -2,7 +2,7 @@ import 'dart:ui' as ui show Color;
 
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
-import 'package:dahlia_shared/utils/constants.dart';
+import 'package:dahlia_shared/src/utils/constants.dart';
 
 sealed class Resource<T extends Enum, V> {
   static final RegExp _syntaxRegex =

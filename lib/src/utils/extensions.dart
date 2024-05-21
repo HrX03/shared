@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import 'package:dahlia_shared/services/customization.dart';
-import 'package:dahlia_shared/utils/resource.dart';
+import 'package:dahlia_shared/src/services/customization.dart';
+import 'package:dahlia_shared/src/utils/resource.dart';
 import 'package:flutter/material.dart';
 
 extension ColorsX on Color {
@@ -55,7 +55,8 @@ extension BuildContextX on BuildContext {
 
   NavigatorState get navigator => Navigator.of(this);
   void pop<T extends Object?>([T? result]) => navigator.pop<T?>(result);
-  Future<T?> push<T extends Object?>(Route<T> route) => navigator.push<T?>(route);
+  Future<T?> push<T extends Object?>(Route<T> route) =>
+      navigator.push<T?>(route);
 
   ScaffoldMessengerState get scaffoldMessenger => ScaffoldMessenger.of(this);
 
@@ -65,7 +66,8 @@ extension BuildContextX on BuildContext {
 }
 
 mixin ThemeConstants {
-  static EdgeInsets get buttonPadding => const EdgeInsets.symmetric(horizontal: 4, vertical: 10);
+  static EdgeInsets get buttonPadding =>
+      const EdgeInsets.symmetric(horizontal: 4, vertical: 10);
 }
 
 extension ResourcePointerUtils on String {

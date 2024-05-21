@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:dahlia_shared/services/service.dart';
+import 'package:dahlia_shared/src/services/service.dart';
 
 class ServiceEntry<T extends Service> {
   final ServiceFactory<T> factory;
